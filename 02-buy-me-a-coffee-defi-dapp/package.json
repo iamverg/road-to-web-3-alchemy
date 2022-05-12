@@ -1,0 +1,23 @@
+{
+  "name": "02-buy-me-a-coffee-defi-dapp",
+  "version": "1.0.0",
+  "description": "Buy Me A Coffee is a popular website that creators, educators, entertainers, and all kinds of people use to create a landing page where anyone can send some amount of money as a thank you for their services. However, in order to use it, you must have a bank account and a credit card. Not everyone has that! A benefit of decentralized applications built on top of a blockchain is that anyone from around the world can access the app using just an Ethereum wallet, which anyone can set up for free in under 1 minute. Let's see how we can use that to our advantage!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.5",
+    "hardhat": "^2.9.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
