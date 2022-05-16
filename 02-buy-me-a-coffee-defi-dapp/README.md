@@ -20,10 +20,10 @@ npx hardhart run scripts/buy-coffe.js
 npx hardhat run scripts/deploy.js
 ```
 
-## deploy on rinkeby network
+## deploy on goerli network
 
 ```shell
-npx hardhat run scripts/deploy.js --network rinkeby
+npx hardhat run scripts/deploy.js --network goerli
 ```
 
 ```shell
