@@ -8,19 +8,29 @@ A benefit of decentralized applications built on top of a blockchain is that any
 
 This is smart contract that allows visitors to send you (fake) ETH as tips and leave nice messages, using Alchemy, Hardhat, Ethers.js, and Ethereum Goerli/Rinkeby(which one isn't down at the time of deployment :D ).
 
-## test buy-coffe.js script on local node
+install dependencies with `npm install`.
+
+Set up by creating a .env file, and filling out these variables:
+
+```shell
+GOERLI_URL="your Alchemy RPC URL"
+GOERLI_API_KEY="your Alchemy API key"
+PRIVATE_KEY="your wallet private key"
+```
+
+## Run an example buy coffee flow locally with:
 
 ```shell
 npx hardhart run scripts/buy-coffe.js
 ```
 
-## deploy local node
+## Deploy your contract with:
 
 ```shell
 npx hardhat run scripts/deploy.js
 ```
 
-## deploy on goerli network
+## Deploy on goerli network with:
 
 ```shell
 npx hardhat run scripts/deploy.js --network goerli
